@@ -4,7 +4,6 @@
 //accepts name as its only parameter.
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
-//invoke greeting.
 
 //Code here
 
@@ -90,18 +89,20 @@ var ruff = dog.bark();
 //Write a function called looper that takes in an array. looper should declare
 //a variable called mySum and set it equal to 0. looper should then loop through
 //the array and check each element.
+
 //If the element is odd, or if the element is greater than or equal to 100, add the element
 //to the mySum variable total.
-//return mySum.
-//invoke looper.
 
-function looper(array){
+//Return mySum.
+
+//Code Here
+function looper(arr){
   var mySum = 0;
-  for(i=0; i<array.length; i++){
-    if (array[i] %2 !== 0 || array[i]>=100){
-      mySum += array[i];
-    }
+  for (i=0;i<arr.length;i++){
+  if (arr[i] %2 !== 0|| arr[i]>=100){
+    mySum += arr[i];
   }
+}
   return mySum;
 }
 
